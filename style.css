@@ -1,0 +1,440 @@
+/* start main rulez */
+body{ background-color:#FFF;height: 6480px;}
+  .container{
+      width:1170px;
+      margin:auto;
+  }
+.clearfix{clear:both;}
+/* end main rulez */
+
+/* start header */
+  .header .slider {
+      background-color:#EEE ;
+      height: 600px;
+      width: 1170px;}
+  .header .slider .intro {
+       height: 600px;
+       text-align:center ; }
+       
+        .header .slider .intro img {
+          width: 1170px;
+          height: 600px;
+      }
+       
+    .header  .slider  .intro  h2 {
+    background-img: url("../image. html/sky.jpg");
+         margin:0px;
+        padding-top:75px ;
+        text-align:center ;
+        color:#2beaff ;
+        }
+   
+     .header .navbar {
+         background-color:#252f31;
+         color:#FFF;
+         overflow:hidden;
+     }
+     .header .navbar h2 {
+         float:left;
+         padding-left:50px  ; 
+         text-transform:uppercase; 
+          }
+         .header .navbar h2 span {
+             color:#2beaff;
+         }
+      
+    .header .navbar ul {
+      list-style:none;
+       padding-left:300px ;
+       overflow:hidden ;
+    }
+      .header .navbar ul li {
+          float:left;
+          padding:10 px;
+      }
+  .header  .navbar  ul li a {
+      color: #FFF;
+      text-decoration:none;
+  }  
+  .header   .navbar ul li.active a, .header .navbar ul li a:hover{
+      color:#2beaff ;
+  }
+/* end header */
+
+/* start features */
+.features{
+    overflow:hidden;
+    text-transform:uppercase;
+    padding-bottom:100px;
+    width: 1170px;
+}
+.features .feat1 {
+    float:left;
+    padding-left:100px;
+    padding-top:100px;
+}
+
+.features .feat2 {
+    float:left;
+    padding-left:120px;
+    padding-top:100px;}
+.features .feat3 {
+    float:left ;
+    padding-left:145px;
+    padding-top:100px;
+}
+.features h2 {
+    color:#444;
+}
+.features p {
+    line-height:1.4;
+    color:#888;
+}
+
+/* end features */
+/* start about me */
+.about-me {
+    width: 1170px;
+    height:600px;
+    background-color:#f2f2f2;
+    overflow:hidden;
+}
+.about-me  .info {
+    float :right ;
+    width:500px;
+}
+.about-me .info  h2 {
+    padding-left:25px;
+   padding-top :5px;
+    color: #2beaff;
+}
+.about-me  .info p {
+     padding-left :25px;
+    color:#666;
+    line-height:1.6;
+}
+.about-me .img {
+    padding-left:20px ;
+    padding-top:0 px;   
+     float:left; 
+   width: 40%;
+   margin-top:-20px;
+      width: 300px;
+    height: 600px; 
+ }
+    .about-me .info .hobbies {
+        margin-top:50px;
+        overflow:hidden ; 
+        padding-left :20px;  }
+    
+    .about-me .info .hobbies > div {
+      float:left;
+      width:50%;
+      min-height:60px;
+    }    
+
+ /* end about me  */
+
+/* start my skills */
+.my-skills {
+    padding-top:30px;
+    padding-bottom:30px;
+    width:1000px ;
+    overflow:hidden ;
+    padding-left:130px;
+    height: 300px;
+}
+.my-skills h2 {
+    color:#2beaff;
+    margin-top :5px
+}
+.my-skills p {
+    color :#666;
+    line-height:1.6;
+}
+.my-skills button {
+    background:none;
+    border:3px solid #2beaff ;
+    padding:5px  10px;
+    color :#2beaff ;
+    font-size: 15px;}
+
+    .my-skills .progress .technique div {
+        background-color:#f2f2f2;
+        height: 20px;
+    }
+    .my-skills  .progress .technique>div>div{
+     background-color :#2DCC70;
+     height: 25px ;
+     display :block;
+     width: 55% ;
+     line-height:-1px;
+     text-align:right ;
+     color:#FFF;   
+     font-weight:bold;
+ }
+ .my-skills  .progress  .technique  span {
+     width:40%;
+ } 
+ .my-skills  .progress  .technique  h3{
+     color: #2DCC70;
+     margin-bottom :3px;
+ }
+           .my-skills  .skills {
+       width :45%;
+    float:left ;}
+
+.my-skills .progress {
+    width:55%;
+    float:left;
+}
+/* end my skills  */
+/* start Resume */
+.Resume {
+    background-color:#f2f2f2 ;
+    padding-top:30px;
+    padding-bottom:60px ;
+    text-align:center ;
+    width:1170px;  
+    height: 200px; } 
+   .Resume h2 {
+       text-transform:uppercase ;
+       margin-bottom :30px;  
+       margin-top :20;
+      font-weight:bold;
+       color:#2DCC70;}
+    .Resume  p {
+        line-height:1.6;
+        margin:50 30px ;
+    }
+    .Resume  button {
+        background:none;
+        border: 5px solid #2DCC70 ;
+        color:#2DCC70;
+        padding:15px 20px;
+        font-size :20px;  
+        margin-top:15px ;
+        margin-bottom:20px; 
+        }       
+ /* end my Resume */
+/* start my-Education */
+.my-education {
+    padding-top:30px;
+    padding-bottom:30px;
+    width:1000px ;
+    overflow:hidden ;
+    padding-left:130px;
+}
+.my-education .main  {
+    width :40%;
+    float:left ;
+    padding-top:10px;
+}
+.my-education .exp{
+    width:60%;
+    float:left;
+    
+}
+.my-education .exp h3  {
+    margin-top:63px;
+    margin-bottom :2px;
+    color:#2DCC70 ;
+    margin-left:45px;
+}
+.my-education  .exp span {
+    margin-top:5px;
+    display:block ;
+    margin-left :45px;
+}
+.my-education .exp p {
+    margin-left:45px;
+    color:# 666;
+}
+.my-education .main h2 {
+    color:#2beaff;
+    margin-top :2px;
+}
+.my-education p {
+    color :#666;
+    line-height:1.6;
+}
+.my-education  .exp span:first-of-type{
+    margin-bottom: 9px;
+    color:#888;
+}
+.my-education .exp span:last-of-type  {
+background-color:#2DCC70 ;
+display:inline;
+    color:#FFF;
+    padding:3px 8px ;
+}
+.my-education  hr {
+margin: 20px 0;
+background-color :#888;
+height: 1px;
+border:2px ;
+    
+}
+/* end my-Education  */
+
+/* start test imonials */
+.Testemoinals {
+    background-color:#f2f2f2 ;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+    width: 1170px;
+    }
+    .Testemoinals  q {
+        color:#777;
+        font:italic bold 18px/1.7 Arial  tahoma ;
+        
+      }
+    .Testemoinals  h3{
+        color:#2beaff ;
+        margin-bottom :30px;    }
+    .Testemoinals  ul{
+        list-style :none;
+        padding-left :15px;
+        text-align :center ;    }
+    .Testemoinals ul li{
+        width :10px;
+        height: 10px; 
+        color:#2beaff ;
+        border:2px solid ;      
+        display :inline-block;
+        cursor:pointer;}
+        .Testemoinals  ul li.active {
+            background-color:#2beaff ;
+        }
+        .Testemoinals   ul li:hover {
+         background-color:#2beaff ;
+        }
+    /* end test imonials */
+
+/* start portofolio */
+.portofolio {
+    text-align:center ;
+    padding-top:50px;
+    padding-bottom:30px;
+    width: 1170px;
+    height: 1600px;
+    overflow:hidden ;
+}
+.portofolio  h2 {
+    color:#888;
+    }
+ .portofolio p {
+     line-height :1.4; 
+     color:#666;
+     padding-bottom :30px;}
+     .portofolio  .our-work {
+         overflow :hidden;
+     }
+    .portofolio .our-work > img {
+        float:left;
+        width:24.13%;
+        margin-bottom:30px;
+        margin-left:85px;
+        margin-bottom :50px;
+}
+.portofolio  .img {
+image-style:none;
+    width :100px;
+    height :100px;
+    padding-left :1000px ;}
+    .portofolio  .our-work >img{
+        width:23.13%;
+        padding:7px;
+        margin:49px;
+        background-color :#FFF;
+        border:1px solid #ccc;
+        box-shadow:6px 6px 6px #ccc;
+    }
+/* end portofolio */
+
+/* start contact me  */
+.contact-me {
+   background-color: #252f31;
+   width: 1170px;
+   overflow:hidden ;
+   padding-top:40px;
+   padding-bottom :70px;
+}
+.contact-me  .info{
+    width :50%;
+    float:left;
+}
+.contact-me h2 {
+    color:#FFF;
+    margin-left:130px ;
+}
+.contact-me p {
+    color:#6A6E71;
+    margin-left :130px;
+    line-height :1.6;
+}
+.contact-me  p strong{
+    color:#D1D6DA;
+    margin-bottom:0px;
+}
+
+.contact-me  .form label{
+    display :block ;
+    color: #6A6E71;
+    margin-bottom :10px;
+    margin-top :13px;
+}
+.contact-me  .form {
+    width:38%;
+    float:left;
+    padding-top :54px;
+    color:#FFF;
+    margin-right :12%;
+}
+.contact-me  .form  input{
+    background-color:#4B5557 ;
+    color:#FFF;
+    padding:10px;
+    border:0px;
+    width:80%;
+    margin-bottom :2px;}
+    
+.contact-me  .form  textarea {
+    background-color:#4B5557 ;
+    color:#FFF;
+    padding:10px;
+    border:0px;
+    width:80%;
+    margin-bottom :2px;
+    height: 200px;}
+    .contact-me  .form  button {
+    background-color :#191E22;
+    color:#FFF;
+    padding :10px 20px;
+    border:0px;
+    margin-top :20px;
+    margin-left :2px;    }
+/* end contact me  */
+
+/* start footer */
+.footer {
+    background-color: #191E22;
+    color:#6A6E71;
+    width: 1170px;
+    text-align:center ;
+    padding:2px 0px ;
+    height: 100px;
+}
+.footer  ul{
+    list-style :none;
+   padding-left :30px;
+}
+.footer ul li{
+    display :inline-block ;
+}
+.footer  ul li img{
+    width:25px;
+    margin-left :5px;    
+}
+/* end footer */
