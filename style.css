@@ -1,5 +1,5 @@
 /* start main rulez */
-body{ background-color:#FFF;height: 6480px;}
+body{ background-color:#FFF;}
   .container{
       width:1170px;
       margin:auto;
@@ -9,9 +9,10 @@ body{ background-color:#FFF;height: 6480px;}
 
 /* start header */
   .header .slider {
-      background-color:#EEE ;
+      background : url('https://i.ibb.co/FbzYXmP/Screenshot-Google.jpg" alt="Screenshot-Google);
+      backgroung-size : cover;
       height: 600px;
-      width: 1170px;}
+  }
   .header .slider .intro {
        height: 600px;
        text-align:center ; }
